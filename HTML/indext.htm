@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!-- HTML stands for Hyper Text Markup Language -->
+
+<head>
+<title>Page Title</title>
+
+<style>
+/* Like botton */
+a:link, a:visited {
+  background-color: rgba(255, 99, 71, 0.7);
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Bookmarks -->
+<p><a href="#C1">Jump to Chapter 1</a></p>
+<p><a href="#C2">Jump to Chapter 2</a></p>
+<p><a href="#C3">Jump to Chapter 3</a></p>
+<p><a href="#C4">Jump to Chapter 4</a></p>
+<p><a href="#C5">Jump to Chapter 5</a></p>
+
+<!-- <a href="html_demo.html#C4">Jump to Chapter 4</a> (link to a bookmark on another page)-->
+
+<!-- ----------------------------------------------------------------------------- -->
+
+<h1 id="C1" style="color:orange;" style="font-size:50px;">My First Heading</h1>
+<button onclick="displayResult()">Change text</button>
+<script>
+  function displayResult() {
+    document.getElementById("C1").innerHTML = "Have a nice day!";
+  }
+  </script>
+
+<pre>   Heyyy   Hani </pre>
+
+<p style="background-image: url('background.jpg');"><b>My First<br> Paragraph.</b></p>
+
+<a href='https://faradars.org/courses/fvgit9609-git-github-gitlab'>mylink</a>
+
+<br>
+
+<img src="img.png" alt="Azaduni" width="150" height="200" > 
+
+<p title="I'm a tooltip" style="color:red;">This is a red paragraph.(mouse over this paragraph)</p>
+
+<!-- ----------------------------------------------------------------------------- -->
+
+<hr id="C2">
+
+
+<h1 style="color:red;">font:</h1>
+<h2 style="font-family:verdana;">This is a heading</h2>
+<p style="font-family:courier;">This is a paragraph.</p>
+<h1 style="color:red;">size:</h1>
+<h2 style="font-size:300%;">This is a heading</h2>
+<p style="font-size:300%;">This is a paragraph.</p>
+<h1 style="color:red;">alignment:</h1>
+<h2 style="text-align:center;">Centered Heading</h2>
+<p style="text-align:center;">Centered paragraph.</p>
+
+
+<hr id="C3">
+
+
+<p>
+<b>bold</b> and <strong>strong</strong>
+<br>
+<i>italic</i> and <em>emphasized</em>
+<br>
+H<sub>2</sub>O use sub
+<br>
+WWW<sup>[1]</sup> use sup
+<br>
+<small>small</small>
+<br>
+<ins>insert</ins>
+<br>
+<del>deleted</del>
+<br>
+<mark>mark</mark>
+</p>
+
+
+<hr id="C4">
+
+
+<p>(abbreviation or acronym)The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+<p>(quote)WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">(blockquote)
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
+
+<address>(address)
+Written by John Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address> 
+
+<p>(cite for work title)<cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+<bdo dir="rtl">This line will be written from right to left (Bi-Directional Override:odb)</bdo>
+
+
+<hr id="C5">
+
+<!-- HTML supports 140 standard color names -->
+<h1 style="background-color:rgba(255, 99, 71, 0.7);">Tomato(0.7)[RGBA]</h1>
+<h1 style="color:Orange;">Orange</h1>
+<h1 style="border:2px solid DodgerBlue;">DodgerBlue</h1>
+<h1 style="border:5px solid MediumSeaGreen;">MediumSeaGreen</h1>
+<h1 style="background-color:Gray;">Gray</h1>
+<h1 style="background-color:SlateBlue;">SlateBlue</h1>
+<h1 style="background-color:Violet;">Violet</h1>
+<h1 style="background-color:LightGray;">LightGray</h1>
+<!-- RGB HEX HSL RGBA HSLA -->
+
+</body>
+</html>

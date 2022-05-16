@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cascading Style Sheets & Links & Images</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- (same folder as the current page) --> <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css"> -->
+  <!-- (html folder on the current web site) <link rel="stylesheet" href="/html/styles.css"> -->
+</head>
+<body>
+<p><a href="indext.htm#C4">Jump to Chapter 4</a></p>
+
+<h1>Heading1</h1>
+<p>Paraph1</p>
+
+<h1>Heading2</h1>
+<p>P2</p>
+
+<hr>
+
+<a href="https://www.w3schools.com/" target="_blank">(absolute)Visit W3Schools!</a>
+<br>
+<a href="img.png" target="_blank">(relative)image</a>
+<br>
+<a href="mailto:someone@example.com">Send email</a>    <!-- opens the user's email program -->
+<br>
+<button onclick="document.location='List.htm'">HTML Tutorial</button>    <!-- javascript -->
+
+<hr>
+
+<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="w3schools.com" style="width:104px;height:142px;">
+
+<p><img src="programming.gif" alt="Computer man" style="width:48px;height:48px;"></p>
+
+<p>click on photo<a href="indext.htm" target="_blank">
+<img src="logo.png" alt="HTML tutorial" style="float:right;width:142px;height:142px;">
+</a></p>
+
+<picture>
+  <source media="(min-width: 650px)" srcset="Cute-baby.jpg">
+  <source media="(min-width: 465px)" srcset="Work-man.jpg">
+  <img src="img.png" alt="azaduni" style="width:auto;">
+</picture>
+
+<table style="width:60%">
+  <caption>table</caption>
+  <tr>
+    <th colspan="2">Name</th>
+    <th>Age</th>
+  </tr>
+  <tr style="height:40px">
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+<table style="width:60%">
+  <tr>
+    <th>Name</th>
+    <td>Jill</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Phone</th>
+    <td>555-1234</td>
+  </tr>
+  <tr>
+    <td>555-8745</td>
+  </tr>
+</table>
+
+<table style="width:100%">
+<colgroup>
+  <col span="2">
+  <col span="3" style="background-color: pink">
+  <col span="1" style="visibility: collapse">
+</colgroup>
+  <tr>
+    <th>MON</th>
+    <th>TUE</th>
+    <th>WED</th>
+    <th>THU</th>
+    <th>FRI</th>
+    <th>SAT</th>
+    <th>SUN</th>
+  </tr>
+  <tr>
+    <td> 1</td>
+    <td> 2</td>
+    <td> 3</td>
+    <td> 4</td>
+    <td> 5</td>
+    <td> 6</td>
+    <td> 7</td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+</table>
+
+</body>
+<html>

@@ -1,0 +1,60 @@
+body {background-color: white;}
+h1 {
+	color: blue;
+	font-family: verdana;
+	font-size: 300%;
+}
+p {
+	background-image: url('background.jpg');
+	color: red;
+	font-family: courier;
+	font-size: 160%;
+	border: 5px solid tomato;
+	padding: 20px;
+	margin: 30px;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+table { /* choose one of space or collapse */
+  border-spacing: 2px;
+  border-collapse: collapse;
+  font-family: arial, sans-serif;
+}
+th, td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+th:nth-child(odd),td:nth-child(odd) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+tr:hover {background-color: #ddd;}
+/*
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+*/
